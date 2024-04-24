@@ -13,7 +13,7 @@ The inventory system is built using object-oriented programming (OOP) principles
 To use this project:
 
 1. Add Newtonsoft package `com.unity.nuget.newtonsoft-json`
-2. Attach script ServiceContainer for make the network service is Singleton and Dontdestroyonload.
-3. Attach script Main to call the service for get inventory from api.
+2. Attach script `ServiceContainer` for make the network service is Singleton and Dontdestroyonload.
+3. Attach script `Main` to call the service for get inventory from api.
 4. Play unity andd observe debug it's will show data from api.
 5. Feel free to explore the scripts in the `Assets/Script` folder to understand how the inventory is implemented.
