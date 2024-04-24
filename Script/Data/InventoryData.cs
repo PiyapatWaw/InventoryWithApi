@@ -21,7 +21,7 @@ namespace App.Data
         }
     }
 
-    public class InventoryItem
+    public abstract class InventoryItem
     {
         public int ID;
         public EItemType ItemType;

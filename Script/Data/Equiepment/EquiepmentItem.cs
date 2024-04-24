@@ -27,7 +27,7 @@ namespace App.Data
         }
     }
 
-    public class WeaponItem : EquiepmentItem
+    public abstract class WeaponItem : EquiepmentItem
     {
         [JsonProperty] protected int baseDamage;
         [JsonProperty] protected int level;
